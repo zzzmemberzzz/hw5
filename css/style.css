@@ -1,0 +1,31 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+    font-size: 0;
+}
+
+.container > div {
+    display: inline-block;
+    width: 100%;
+}
+
+.container > div > div {
+    outline: 1px solid #000;
+    display: inline-block;
+}
+
+.first-row div {
+    width:400px;
+    height:400px;
+    background: aqua;
+}
+
+.second-row div {
+    background:chartreuse;
+
+}
+
+.third-row div {
+    background:rgb(162, 0, 255);
+}
